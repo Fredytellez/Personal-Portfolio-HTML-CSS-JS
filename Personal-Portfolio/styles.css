@@ -66,6 +66,18 @@ section {
   color: var(--green);
 }
 
+.heading {
+  text-align: center;
+  font-size: 5rem;
+  color: var(--black);
+  padding-bottom: 2rem;
+}
+
+.heading span {
+  color: var(--green);
+  text-decoration: uppercase;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -171,7 +183,6 @@ section {
   text-align: center;
 }
 
-
 .home .content h3 {
   font-size: 7rem;
   color: var(--black);
@@ -201,13 +212,91 @@ section {
   margin: 0.5rem;
   font-size: 2rem;
   color: var(--black);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .home .share a:hover {
   color: var(--green);
   box-shadow: var(--box-shadow-inset);
 }
+
+.about .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  gap: 2rem;
+}
+
+.about .row .box-container {
+  flex: 1 1 40rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.about .row .box-container .box {
+  flex: 1 1 18rem;
+  text-align: center;
+  padding: 2rem;
+  border-radius: .5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.about .row .box-container .box h3 {
+  font-size: 5rem;
+  color: var(--black);
+  line-height: 1.1;
+}
+
+.about .row .box-container .box p {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  padding: .5rem 0;
+}
+
+.about .row .content {
+  flex: 1 1 40rem;
+}
+
+.about .row .content h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  line-height: 1.8;
+}
+
+.about .row .content h3 span {
+  color: var(--green);
+}
+
+.about .row .content p {
+  font-size: 2rem;
+  color: var(--light-color);
+  line-height: 1.8;
+  padding: 1rem 0
+}
+
+.about .row .progress {
+  flex: 1 1 40rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
